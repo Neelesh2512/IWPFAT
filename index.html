@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iOS Style Pin Code Validation Example</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="personal class" id="personal">
+    Name: Neelesh Sharma <br>
+    Reg no: 19BCE0768 <br>
+    Age : 20 <br>
+    Mobile: +91-9888888888 <br>
+    E-mail: neeleshsharma2512@gmail.com <br> 
+  </div>
+  
+<div id="pin">
+  <i class="fa fa-lock" style="font-size:36px;color:rgba(255, 255, 255, 0.74)"></i>
+  <p class="enter-pass" style="padding-top: 50px;">Enter Passcode</p>
+  <div class="dots">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+  
+  <div class="numbers">
+    <div class="number">1  </div>
+    <div class="number">2 <br> <span>ABC</span> </div>
+    <div class="number">3 <br> <span>DEF</span></div>
+    <div class="number">4 <br> <span>GHI</span></div>
+    <div class="number">5 <br> <span>JKL</span></div>
+    <div class="number">6 <br> <span>MNO</span></div>
+    <div class="number">7 <br> <span>PQRS</span></div>
+    <div class="number">8 <br> <span>TUV</span></div>
+    <div class="number">9 <br> <span>WXYZ</span></div>
+    <div class="number">0 </div>
+  </div>
+  <div class="emcan">
+    <input type="button" class="em" value="Emergency" onclick="emergency()" >
+    <input type="button" class="can" value="cancel" onclick="cancel()" >
+    
+  </div>
+
+  <div class="bottom-line" style="margin-top: 25px;"></div>  
+</div>
+
+<div class="college class" id="college">
+  College: VIT Vellore <br>
+  Branch: CSE <br>
+  Year: 3rd <br>
+  Course: B.Tech <br>
+  E-mail: neelesh.sharma2019@vitstudent.ac.in <br>
+</div>
+
+<? php include('dbConn.php'); ?>
+<script src="index.js"></script>
+</body>
+</html>
